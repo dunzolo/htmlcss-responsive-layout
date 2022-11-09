@@ -9,11 +9,15 @@
 /* utils */
 .background-lavender{
     background-color: #9792E4;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .background-lightblue{
     background-color: #B5DDFF;
+}
+
+.background-white{
+    background-color:#ffffff;
 }
 
 .btn{
@@ -33,6 +37,10 @@
 
 .color-blue{
     color: #0084FD
+}
+
+.color-white{
+    color: #ffffff;
 }
 
 .margin-bottom-50{
@@ -98,6 +106,11 @@ header{
     /* border: 1px solid red; */
 }
 
+.col-50 img{
+    width:100%;
+    padding: 50px 0px;
+}
+
 .col-70 img{
     width: 400px;
 }
@@ -111,6 +124,11 @@ p{
     padding: 20px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.circle{
+    padding: 20px;
+    border-radius: 50%;
 }
 
 .text{
