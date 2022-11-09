@@ -26,6 +26,10 @@
     font-size: 18px;
 }
 
+.btn-small{
+    padding: 5px 10px;
+}
+
 .btn-medium{
     padding: 10px 50px;
 }
@@ -35,12 +39,29 @@
     color: #ffffff;
 }
 
+.btn-lavender{
+    background-color: #9792E4;
+    color: #ffffff;
+}
+
 .color-blue{
     color: #0084FD
 }
 
+.color-lavender{
+    color: #9792E4;
+}
+
 .color-white{
     color: #ffffff;
+}
+
+.margin-left-20{
+    margin-left: 20px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
 }
 
 .margin-bottom-50{
@@ -61,6 +82,10 @@
 
 .padding-right-20{
     padding-right: 20px;
+}
+
+.text-left{
+    text-align: left;
 }
 /* inizio header */
 header{
@@ -86,18 +111,6 @@ header{
 .flex-direction{
     flex-direction: column;
 }
-
-/* .logo, .inlinelist-menu{
-    height: 50px;
-    width: 200px;
-    border: 1px solid red;
-} */
-
-/* .dropdown-menu{
-    height: 50px;
-    width: 50px;
-    border: 1px solid red;
-} */
 /* fine header */
 
 /* inizio main */
@@ -105,11 +118,7 @@ header{
     width: 90%;
     border-radius: 30px;
     margin-bottom: 20px;
-    /* height: 250px; */
-    /* margin: 10px 0px; */
-    /* border: 1px solid red; */
 }
-
 
 .col-50 img{
     width:100%;
@@ -120,8 +129,13 @@ header{
     width: 400px;
 }
 
-h2{
-    padding-top: 20px;
+h1{
+    padding: 50px 0px;
+    font-size: 50px;
+}
+
+h2, h3{
+    padding: 20px 0px 0px 20px;
     font-size: 30px;
 }
 
@@ -145,7 +159,6 @@ p{
 
 .text{
     width: 100%;
-    /* height: 100px; */
 }
 
 .card{
@@ -153,8 +166,12 @@ p{
     border-radius: 30px;
     margin-bottom: 20px;
     color: #ffffff;
-    /* height: 50px; */
-    /* border: 1px solid red; */
+}
+
+.number{
+    color: #9792E4;
+    font-size: 80px;
+    font-weight: bold;
 }
 /* fine main */
 
