@@ -24,6 +24,10 @@ header{
     justify-content: space-between;
 }
 
+.flex-direction{
+    flex-direction: column;
+}
+
 .logo, .inlinelist-menu{
     height: 50px;
     width: 200px;
@@ -34,4 +38,13 @@ header{
     height: 50px;
     width: 50px;
     border: 1px solid red;
+}
+/* fine header */
+
+/* inizio main */
+.col-30, .col-33, .col-70{
+    width: 100%;
+    height: 250px;
+    background-color: #B5DDFF;
+    margin: 10px 0px;
 }
