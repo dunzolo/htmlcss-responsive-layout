@@ -48,6 +48,12 @@
     color: #9792E4;
 }
 
+.btn-header{
+    color: black;
+    background-color:#ffffff;
+    font-size: 12px;
+}
+
 .btn-lavender{
     background-color: #9792E4;
     color: #ffffff;
@@ -126,6 +132,24 @@ header{
 .flex-direction{
     flex-direction: column;
 }
+
+.inlinelist-menu{
+    display: none;
+}
+
+.dropdown-menu{
+    display: block;
+}
+
+.inlinelist-menu ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.inlinelist-menu ul li{
+    padding: 0px 10px;
+}
 /* fine header */
 
 /* inizio main */
@@ -135,13 +159,8 @@ header{
     margin-bottom: 20px;
 }
 
-.col-50 img{
-    width:100%;
-    padding: 50px 0px;
-}
-
 .col-70 img{
-    width: 300px;
+    width: 200px;
 }
 
 h1{
@@ -156,7 +175,7 @@ h2, h3{
 
 p{
     padding: 20px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -198,6 +217,12 @@ p{
     font-size: 80px;
     font-weight: bold;
 }
+
+.img-planning1, .img-planning2{
+    width: 100%;
+    padding: 50px 0px;
+}
+
 /* fine main */
 
 /* inizio footer */
@@ -225,10 +250,10 @@ footer{
 
     #intro .col-70{
         width: 66%;
-        /* text-align: left; */
+        text-align: left;
         /* margin: 0px 20px 20px 0px; */
         margin-bottom: 20px;
-        min-height: 695px;
+        min-height: 450px;
     }
     
     #intro .col-30, #intro .col-33{
@@ -237,7 +262,7 @@ footer{
     }
 
     #intro .col-30{
-        min-height: 695px;
+        min-height: 450px;
     }
 
     #intro .col-70 button{
@@ -260,6 +285,10 @@ footer{
         width: 40%;
         padding-top: 50px;
     }
+
+    #about-us .col-30 .btn{
+        font-size: 12px;
+    }
     
     /* #about-us .col-30 .margin-left-20{
         margin-left: 0px;
@@ -279,8 +308,24 @@ footer{
         max-width: 950px;
     }
 
+    h2{
+        font-size: 25px;
+    }
+
+    header .inlinelist-menu{
+        display: block;
+    }
+
+    header .dropdown-menu{
+        display: none;
+    }
+
     #strategic .flex-direction{
         flex-direction: row;
+    }
+
+    #intro .col-30 i, #intro .col-33 i{
+        padding-top: 20px;
     }
 
     #intro .col-50{
@@ -311,7 +356,7 @@ footer{
     #intro .img-phone{
         position: absolute;
         bottom: 0;
-        right: 0;
+        /* right: 0; */
         padding: 0;
     }
 
