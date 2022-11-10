@@ -34,9 +34,18 @@
     padding: 10px 50px;
 }
 
+.btn-large{
+    padding: 20px 50px;
+}
+
 .btn-blue{
     background-color: #0084FD;
     color: #ffffff;
+}
+
+.btn-white{
+    background-color: #ffffff;
+    color: #9792E4;
 }
 
 .btn-lavender{
@@ -50,6 +59,10 @@
 
 .color-lavender{
     color: #9792E4;
+}
+
+.color-yellow{
+    color: #FDC15F;
 }
 
 .color-white{
@@ -99,6 +112,7 @@ header{
 
 .container{
     width: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 
