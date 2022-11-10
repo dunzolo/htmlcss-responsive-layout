@@ -63,6 +63,10 @@
     color: #0084FD
 }
 
+.color-grey{
+    color: #808080;
+}
+
 .color-lavender{
     color: #9792E4;
 }
@@ -169,13 +173,13 @@ h1{
 }
 
 h2, h3{
-    padding: 20px 0px 0px 20px;
+    padding-top: 20px;
     font-size: 30px;
 }
 
 p{
-    padding: 20px;
-    font-size: 15px;
+    padding: 20px 0px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -210,6 +214,7 @@ p{
     border-radius: 30px;
     margin-bottom: 20px;
     color: #ffffff;
+    padding: 0px 30px;
 }
 
 .number{
@@ -253,7 +258,7 @@ footer{
         text-align: left;
         /* margin: 0px 20px 20px 0px; */
         margin-bottom: 20px;
-        min-height: 450px;
+        min-height: 490px;
     }
     
     #intro .col-30, #intro .col-33{
@@ -262,15 +267,16 @@ footer{
     }
 
     #intro .col-30{
-        min-height: 450px;
+        min-height: 490px;
     }
 
-    #intro .col-70 button{
-        margin-left: 20px;
+    #testimonials .col-80{
+        text-align: left;
     }
 
-    #testimonials .col-20{
-        margin-left: 20px;
+    #testimonials .col-80 p{
+        font-size: 18px;
+        padding: 10px 20px;
     }
 
     #benefits .col-33{
@@ -284,18 +290,24 @@ footer{
     #about-us .col-30{
         width: 40%;
         padding-top: 50px;
+        min-height: 645px;
     }
 
     #about-us .col-30 .btn{
         font-size: 12px;
     }
     
-    /* #about-us .col-30 .margin-left-20{
-        margin-left: 0px;
-    } */
 
     #banner.container{
         max-width: 680px;
+    }
+
+    #banner h1{
+        font-size: 80px;
+    }
+
+    #banner h2{
+        font-size: 40px;
     }
 
     footer .container{
