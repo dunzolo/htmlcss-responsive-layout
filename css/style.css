@@ -111,7 +111,7 @@ header{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
@@ -129,7 +129,7 @@ header{
 
 /* inizio main */
 .col-20, .col-30, .col-33, .col-50, .col-70, .col-80, .col-100{
-    width: 90%;
+    /* width: 90%; */
     border-radius: 30px;
     margin-bottom: 20px;
 }
@@ -165,8 +165,8 @@ p{
 }
 
 .img-circle{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -203,4 +203,46 @@ p{
 footer{
     background-color: #333333;
     color: #ffffff;
+}
+/* fine footer */
+
+/* media query */
+@media screen and (min-width:768px){
+
+    /* .container{
+        max-width: 700px;
+    } */
+
+    #intro .flex-direction, #testimonials .flex-direction{
+        flex-direction: row;
+    }
+
+    #intro .col-70{
+        width: 66%;
+        /* text-align: left; */
+        /* margin: 0px 20px 20px 0px; */
+        margin-bottom: 20px;
+        min-height: 695px;
+    }
+    
+    #intro .col-30{
+        width: 33%;
+        /* margin: 0px 20px 20px; */
+        min-height: 695px;
+    }
+
+    #intro .col-33{
+        width: 33%;
+        /* margin: 0px 20px 20px */
+    }
+
+    #intro .col-70 button{
+        /* margin-left: 20px; */
+    }
+
+    #testimonials .col-20{
+        margin-left: 20px;
+    }
+
+    
 }
