@@ -283,8 +283,9 @@ footer{
         flex-direction: row;
     }
 
-    #intro .prova{
+    #intro .col-50{
         width: 50%;
+        margin-bottom: 0px;
     }
 
     #intro .col-70{
@@ -299,8 +300,19 @@ footer{
         min-height: 0px;
     }
 
-    #strategic{
+    #intro, #strategic{
         position: relative;
+    }
+
+    #intro .col-50{
+        position: relative;
+    }
+
+    #intro .img-phone{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0;
     }
 
     #strategic .col-50{
@@ -320,5 +332,9 @@ footer{
     #strategic .img-planning2{
         width: 50%;
         padding: 0px;
+    }
+
+    #benefits .col-33{
+        width: calc(33% - 20px);
     }
 }
