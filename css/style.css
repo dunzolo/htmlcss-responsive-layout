@@ -141,7 +141,7 @@ header{
 }
 
 .col-70 img{
-    width: 400px;
+    width: 300px;
 }
 
 h1{
@@ -208,6 +208,7 @@ footer{
 /* fine footer */
 
 /* media query */
+
 @media screen and (min-width:768px){
 
     .container{
@@ -270,5 +271,54 @@ footer{
 
     footer .container{
         max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 950px;
+    }
+
+    #strategic .flex-direction{
+        flex-direction: row;
+    }
+
+    #intro .prova{
+        width: 50%;
+    }
+
+    #intro .col-70{
+        display: flex;
+    }
+
+    #intro .col-70 button{
+        margin-bottom: 50px;
+    }
+
+    #intro .col-30, #intro .col-70{
+        min-height: 0px;
+    }
+
+    #strategic{
+        position: relative;
+    }
+
+    #strategic .col-50{
+        width: calc(50% - 20px)
+    }
+
+    #strategic .col-50.background-white{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #strategic .img-planning1{
+        margin: 50px 0px;
+    }
+
+    #strategic .img-planning2{
+        width: 50%;
+        padding: 0px;
     }
 }
