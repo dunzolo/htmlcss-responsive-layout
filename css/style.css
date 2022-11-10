@@ -112,6 +112,7 @@ header{
 
 .container{
     width: 90%;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
 }
@@ -178,7 +179,7 @@ p{
 .pos-relative .fa-quote-left{
     position: absolute;
     top: 0;
-    left: 220px;
+    left: 150px;
 }
 
 .text{
@@ -209,11 +210,11 @@ footer{
 /* media query */
 @media screen and (min-width:768px){
 
-    /* .container{
-        max-width: 700px;
-    } */
+    .container{
+        max-width: 740px;
+    }
 
-    #intro .flex-direction, #testimonials .flex-direction, #benefits .flex-direction{
+    #intro .flex-direction, #testimonials .flex-direction, #benefits .flex-direction, #about-us .flex-direction{
         flex-direction: row;
     }
 
@@ -249,5 +250,25 @@ footer{
     #benefits .col-33{
         width: calc(50% - 20px);
     }
+
+    #about-us .col-70{
+        width: 50%;
+    }
+
+    #about-us .col-30{
+        width: 40%;
+        padding-top: 50px;
+    }
     
+    /* #about-us .col-30 .margin-left-20{
+        margin-left: 0px;
+    } */
+
+    #banner.container{
+        max-width: 680px;
+    }
+
+    footer .container{
+        max-width: 500px;
+    }
 }
