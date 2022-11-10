@@ -213,8 +213,12 @@ footer{
         max-width: 700px;
     } */
 
-    #intro .flex-direction, #testimonials .flex-direction{
+    #intro .flex-direction, #testimonials .flex-direction, #benefits .flex-direction{
         flex-direction: row;
+    }
+
+    #benefits .row{
+        flex-wrap: wrap;
     }
 
     #intro .col-70{
@@ -225,24 +229,25 @@ footer{
         min-height: 695px;
     }
     
-    #intro .col-30{
-        width: 33%;
+    #intro .col-30, #intro .col-33{
+        width: calc(33% - 10px);
         /* margin: 0px 20px 20px; */
+    }
+
+    #intro .col-30{
         min-height: 695px;
     }
 
-    #intro .col-33{
-        width: 33%;
-        /* margin: 0px 20px 20px */
-    }
-
     #intro .col-70 button{
-        /* margin-left: 20px; */
+        margin-left: 20px;
     }
 
     #testimonials .col-20{
         margin-left: 20px;
     }
 
+    #benefits .col-33{
+        width: calc(50% - 20px);
+    }
     
 }
